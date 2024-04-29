@@ -7,6 +7,7 @@
 // setup
 
 // URDF
+
 URDF: Unified Robot Description Format
 
 로봇의 구조와 형태를 기술하는 파일. XML형식. Link와 Joint로 구성.
