@@ -32,3 +32,5 @@ URDF: Unified Robot Description Format
 geometry(링크의 형태), origin(링크의 시작점), material(링크의 재료), inertia(링크의 관성정보)를 포함.
 
 솔리드웍스, 퓨전360 등의 3D 모델링 프로그램을 통해 모델링 후 URDF exporter를 통해 변환.
+
+Q. Key가 무엇인가?
