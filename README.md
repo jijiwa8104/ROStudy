@@ -32,6 +32,7 @@ mkdir <> # <>: directory name
 git clone https://github.com/ArduPilot/ardupilot
 
 cd <> # ardupilot 설치 디렉토리로 이동
+git init
 git submodule update --init --recursive # 추가 패키지 설치
 
 git clone https://github.com/khancyr/ardupilot_gazebo
@@ -64,7 +65,7 @@ geometry(링크의 형태), origin(링크의 시작점), material(링크의 재�
 
 솔리드웍스, 퓨전360 등의 3D 모델링 프로그램을 통해 모델링 후 URDF exporter를 통해 변환.
 
-// 버전관리, 가상환경(virtual environment)
+// 버전관리, 가상환경(virtual environment), 개발환경 관리
 
 
 
