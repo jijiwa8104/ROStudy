@@ -3,7 +3,6 @@
 // prerequisite
 1. Ubuntu Installation
 2. Ros Installation
-
 [ref](https://velog.io/@emdydqortkgh/ROS-Noetic-%EC%84%A4%EC%B9%98-Ubuntu-20.04)
 ```
 $ sudo apt-get install -y chrony ntpdate
@@ -20,6 +19,15 @@ $ sudo rosdep init
 $ rosdep update
 $ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generator python3-wstool build-essential
 ```
+3. Gazebo Installation
+[ref](https://classic.gazebosim.org/tutorials?tut=install_ubuntu)
+```
+$ curl -sSL http://get.gazebosim.org | sh
+```
+
+[ref](https://mkdrone.tistory.com/2)
+
+
 
 // setup
 
