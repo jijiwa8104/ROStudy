@@ -71,4 +71,6 @@ geometry(링크의 형태), origin(링크의 시작점), material(링크의 재�
 
 
 
-Q. Key가 무엇인가?
+Q. Key가 무엇인가? (ros installation)
+
+Q. Docker와 distrobox는 무엇인가?
