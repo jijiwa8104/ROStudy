@@ -1,6 +1,6 @@
 # Drone Simulation
 
-// prerequisite
+## prerequisite
 1. Ubuntu Installation
 2. Ros Installation
 [ref](https://velog.io/@emdydqortkgh/ROS-Noetic-%EC%84%A4%EC%B9%98-Ubuntu-20.04)
@@ -24,12 +24,35 @@ $ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generato
 ```
 $ curl -sSL http://get.gazebosim.org | sh
 ```
+## drone simulation
 
 [ref](https://mkdrone.tistory.com/2)
+```
+mkdir <> # <>: directory name
+git clone https://github.com/ArduPilot/ardupilot
 
+cd <> # ardupilot 설치 디렉토리로 이동
+git submodule update --init --recursive # 추가 패키지 설치
 
+git clone https://github.com/khancyr/ardupilot_gazebo
+cd ardupilot_gazebo
+mkdir build
+cd build
+cmake ..
+make -j4
+sudo make install
 
-// setup
+sudo apt update
+sudo apt install python3-pip
+
+pip3 install pymavlink
+
+sudo apt-get install python3-dev python3-opencv python3-wxgtk4.0 python3-pip python3-matplotlib python3-lxml python3-pygame
+pip3 install PyYAML mavproxy --user
+echo "export PATH=$PATH:$HOME/.local/bin" >> ~/.bashrc
+
+gazebo --verbose worlds/iris_arducopter_runway.world
+```
 
 // URDF
 
@@ -40,5 +63,11 @@ URDF: Unified Robot Description Format
 geometry(링크의 형태), origin(링크의 시작점), material(링크의 재료), inertia(링크의 관성정보)를 포함.
 
 솔리드웍스, 퓨전360 등의 3D 모델링 프로그램을 통해 모델링 후 URDF exporter를 통해 변환.
+
+// 버전관리, 가상환경(virtual environment)
+
+
+
+
 
 Q. Key가 무엇인가?
