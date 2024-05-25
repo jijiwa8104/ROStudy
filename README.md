@@ -5,6 +5,7 @@ Installation Steps
   2. Create a Bootable USB Drive. (Rufus)
   3. Make a space for new OS by shrinking existing disk.
   4. Boot your computer with the USB drive and install Ubuntu.
+
 Method 2: Virtual Machine
 
 
