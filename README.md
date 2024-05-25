@@ -26,7 +26,7 @@ Ubuntu 20.04(Focal Fossa) -> ROS Noetic Ninjemys</br>
 ~$ rosversion -d
 ```
 
-- Steps to install ROS
+- Steps to install [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
 ```
 
 ```
@@ -126,3 +126,8 @@ geometry(링크의 형태), origin(링크의 시작점), material(링크의 재�
 Q. Key가 무엇인가? (ros installation)
 
 Q. Docker와 distrobox는 무엇인가?
+
+Q. catkin build VS catkin_make
+
+Q. Where can I find packages installed using the terminal?
+Usually they will be saved in current working directory
