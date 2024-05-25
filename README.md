@@ -28,6 +28,10 @@ Ubuntu 20.04(Focal Fossa) -> ROS Noetic Ninjemys</br>
 
 - Steps to install [ROS Noetic](http://wiki.ros.org/noetic/Installation/Ubuntu)
 ```
+# ROS 패키지 저장소 정보 저장.  # 인라인 쉘스크립트 실행(sh -c '...'); 시스템 패키지 관리자가 ROS 패키지를 설치할 때 ROS 저장소를 사용할 수 있도록 함.
+~$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+
+# 
 
 ```
 
@@ -119,8 +123,10 @@ geometry(링크의 형태), origin(링크의 시작점), material(링크의 재�
 
 // 버전관리, 가상환경(virtual environment), 개발환경 관리
 
-
-
+// 명령어 치환(command substitution)
+형태: $(command)</br>
+한 명령어의 결과물의 다른 명령어의 인수로 활용하기.
+스크립트가 더 유연하고 이식가능하게 됨.
 
 
 Q. Key가 무엇인가? (ros installation)
