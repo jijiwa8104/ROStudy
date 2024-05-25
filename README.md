@@ -2,7 +2,7 @@
 Method 1: Multi Booting</br>
 Installation Steps
   1. Go to the [official Ubuntu website](https://ubuntu.com/download) and download the latest version of the Ubuntu ISO file.
-  2. Create a Bootable USB Drive. (Rufus)
+  2. Create a Bootable USB Drive. (Use Rufus or Etcher)
   3. Make a space for new OS by shrinking existing disk.
   4. Boot your computer with the USB drive and install Ubuntu.
 
