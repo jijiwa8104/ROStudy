@@ -4,10 +4,9 @@ Installation Steps
   1. Go to the [official Ubuntu website](https://ubuntu.com/download) and download the latest version of the Ubuntu ISO file.
   2. Create a Bootable USB Drive. (Rufus)
   3. Make a space for new OS by shrinking existing disk.
-  4. Boot your computer with the USB drive and install Ubuntu.</br>
-Method 2: Virtual Machine
+  4. Boot your computer with the USB drive and install Ubuntu.
 
-
+Method 2: Virtual Machine</br>
 ## Drone Simulation
 
 ### prerequisite
