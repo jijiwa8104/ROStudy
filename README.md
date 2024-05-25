@@ -1,6 +1,16 @@
-# Drone Simulation
+# Ubuntu Installation
+Method 1: Multi Boot with Windows and Ubuntu</br>
+Installation Steps
+  1. Go to the [official Ubuntu website](https://ubuntu.com/download) and download the latest version of the Ubuntu ISO file.
+  2. Create a Bootable USB Drive. (Rufus)
+  3. Make a space for new OS by shrinking existing disk.
+  4. Boot your computer with the USB drive and install Ubuntu.
+Method 2: Virtual Machine
 
-## prerequisite
+
+## Drone Simulation
+
+### prerequisite
 1. Ubuntu Installation
 2. Ros Installation
 [ref](https://velog.io/@emdydqortkgh/ROS-Noetic-%EC%84%A4%EC%B9%98-Ubuntu-20.04)
@@ -24,7 +34,7 @@ $ sudo apt install python3-rosdep python3-rosinstall python3-rosinstall-generato
 ```
 $ curl -sSL http://get.gazebosim.org | sh
 ```
-## drone simulation
+### drone simulation
 
 [ref](https://mkdrone.tistory.com/2)
 ```
