@@ -30,8 +30,14 @@ Ubuntu 20.04(Focal Fossa) -> ROS Noetic Ninjemys</br>
 ```
 # ROS 패키지 저장소 정보 저장.  # 인라인 쉘스크립트 실행(sh -c '...'); 시스템 패키지 관리자가 ROS 패키지를 설치할 때 ROS 저장소를 사용할 수 있도록 함.
 ~$ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-
-# 
+# curl(Client-URL) 패키지 설치  # URL을 통한 데이터 주고 받기 위한 패키지.
+~$ sudo apt install curl      # if you haven't already installed curl
+# ROS 공식 저장소에서 공개키(ros.asc) 받아서 APT(패키지 관리자)가 시스템에 공개키 추가.
+~$ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
+# 패키지 목록 업데이트
+~$ sudo apt update
+# ROS 다운
+~$ sudo apt install ros-noetic-desktop-full
 
 ```
 
