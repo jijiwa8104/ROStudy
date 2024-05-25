@@ -7,6 +7,22 @@ Installation Steps
   4. Boot your computer with the USB drive and install Ubuntu.
 
 Method 2: Virtual Machine</br>
+
+# ROS Installation
+- Version Match Ubuntu and ROS
+There are several distributions of Ubuntu and each has a appropiate ROS version.  
+Ubuntu 20.04(Focal Fossa) -> ROS Noetic Ninjemys  
+- Steps to install ROS
+
+
+
+
+
+
+
+
+
+
 ## Drone Simulation
 
 ### prerequisite
