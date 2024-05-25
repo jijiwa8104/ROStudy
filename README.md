@@ -25,13 +25,17 @@ They provide a way to access another file indirectly through a specific path.</b
 In Linux systems like Ubuntu, /bin/sh is typically linked to dash or another shell program like bash.</br>
 This setup allows for flexibility and performance optimization.</br>
 For instance, dash might be used for system boot scripts or initialization tasks due to its lightweight nature, while bash might be preferred for interactive shell sessions due to its richer feature set.</br>
-'/bin/sh'가 'dash'로 링크되었다: '/bin/sh'가 'dash' 프로그램을 가리키는 심볼릭 링크이다.</br>
+'/bin/sh'가 'dash'로 링크되었다 -> '/bin/sh'가 'dash' 프로그램을 가리키는 심볼릭 링크이다.</br>
 ```
 ~$ which sh      # sh 명령어가 실제로 가리키는 경로
 /usr/bin/sh      # 아 sh 명령어는 이 경로의 sh 파일을 가리키구나.
+
 ~$ ls -l /bin/sh      # ls는 파일 시스템의 대상 경로의 파일 목록나 대상 파일의 정보 표시하라는 명령어; -l 옵션은 자세한 정보; /bin/sh는 궁금한 대상 파일
 lrwxrwxrwx 1 root root 4  4월 27 23:17 /bin/sh -> dash      # 'l' 파일의 유형이 심볼릭 링크구나; 'rwx' 대상 파일 권한; 'dash' 심볼릭 링크가 가리키는 실제 파일
 # /usr/bin/sh 실행 시 실제로 실행되는 프로그램은 dash
+
+~$ readlink -f /bin/sh      # /bin/sh가 가리키는 실제 파일의 절대경로(-f)
+/usr/bin/dash
 ```
 
 ## Drone Simulation
