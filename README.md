@@ -9,8 +9,10 @@ Installation Steps
 Method 2: Virtual Machine</br>
 
 # How to manage packages on a per-project basis in Ubuntu
-1. Vurtual Environment(virtualenv or venv for Pyhton)
+1. Vurtual Environment (virtualenv or venv for Pyhton)
 2. Contatiner Technology like Docker
+3. ROS Workspace</br>
+You can have seperate workspaces for different projects.
 
 
 # ROS Installation
