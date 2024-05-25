@@ -9,7 +9,8 @@ Installation Steps
 Method 2: Virtual Machine</br>
 
 # ROS Installation
-- Version Match Ubuntu and ROS</br></br>
+- Version Match Ubuntu and ROS</br>
+
 There are several distributions of Ubuntu and each has a appropiate ROS version.</br>
 Ubuntu 20.04(Focal Fossa) -> ROS Noetic Ninjemys</br>
 - Steps to install ROS
